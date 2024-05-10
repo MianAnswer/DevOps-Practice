@@ -9,6 +9,8 @@ name: Lint Code Base
 on:
   pull_request:
     branches: [ "main" ]
+    paths:
+      - 'client/**'
 jobs:
   run-lint:
     runs-on: ubuntu-latest
