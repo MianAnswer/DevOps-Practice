@@ -2,6 +2,8 @@ name: run api testing
 on:
   pull_request:
     branches: [main]
+    paths:
+    - './api/**'
 
 jobs:
   api-test:
