@@ -1,6 +1,6 @@
-import app from './app.js';
-const port = process.env.PORT || 8080;
+import app from './app.js'
+const port = process.env.PORT || 8080
 
 app.listen(port, () => {
-   console.log(`listening to http://localhost:${port}`);
-});
+  console.log(`listening to http://localhost:${port}`)
+})
