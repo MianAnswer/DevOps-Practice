@@ -9,10 +9,9 @@ describe('GET /', () => {
       .end((err, res) => {
         if (err) {
           expect.fail(err)
-        }
-        else {
+        } else {
           expect(res.status).to.equal(200)
-          expect(res.text).to.equal('Hello, world!') 
+          expect(res.text).to.equal('Hello, world!')
         }
         done()
       })
