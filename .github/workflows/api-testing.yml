@@ -6,6 +6,9 @@ on:
 jobs:
   api-test:
     runs-on: ubuntu-latest
+    defaults:
+      runs:
+        working-directory: ./api
     steps:
       - uses: actions/checkout@v2
 
