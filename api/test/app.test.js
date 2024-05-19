@@ -8,7 +8,7 @@ describe('GET /', () => {
       .get('/')
       .end((err, res) => {
         if (err) {
-           expect.fail(err)
+          expect.fail(err)
         }
         else {
           expect(res.status).to.equal(200)
